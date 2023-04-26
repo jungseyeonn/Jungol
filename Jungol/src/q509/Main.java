@@ -6,5 +6,4 @@ public class Main {
 		int a = -100;
 		System.out.println(a);
 	}
-
 }
