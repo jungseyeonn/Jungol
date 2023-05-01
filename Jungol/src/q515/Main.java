@@ -11,6 +11,14 @@ public class Main {
 		sc.close();
 		
 		System.out.printf("%d * %d = %d\n",num1,num2,num1*num2);
-		System.out.printf("%d / %d = %d",num1,num2,num1/num2);		
+		System.out.printf("%d / %d = %d\n",num1,num2,num1/num2);		
+		
+		//'swap' (num1 < num2)
+		int tmp = num1;
+		num1 = num2;
+		num2 = tmp;
+		
+		System.out.printf("%d * %d = %d\n",num1,num2,num1*num2);
+		System.out.printf("%d / %d = %d",num1,num2,num1/num2);
 	}
 }
