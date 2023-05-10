@@ -7,6 +7,8 @@ public class Main {
 		Scanner sc = new Scanner(System.in);
 		int n1 = sc.nextInt();
 		int n2 = sc.nextInt();
+		sc.close();
+		
 		if (n1==n2) {
 			System.out.println(1);
 		} else {
@@ -23,6 +25,11 @@ public class Main {
 		System.out.println(thr);
 		thr = (n1!=n2) ? 1 : 0;
 		System.out.println(thr);
-		sc.close();
+		
+		//태호님 답안
+		boolean bS = n1 == n2;
+		System.out.println(bS);
+		System.out.println(!bS);
+		
 	}
 }
