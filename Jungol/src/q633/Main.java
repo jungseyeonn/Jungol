@@ -18,16 +18,16 @@ public class Main {
 			if (num > 0 && num < 5) {
 				switch (num) {
 				case 1:
-					System.out.println("Seoul" + "\n");
+					System.out.println("Seoul\n");
 					break;
 				case 2:
-					System.out.println("Washington" + "\n");
+					System.out.println("Washington\n");
 					break;
 				case 3:
-					System.out.println("Tokyo" + "\n");
+					System.out.println("Tokyo\n");
 					break;
 				case 4:
-					System.out.println("Beijing" + "\n");
+					System.out.println("Beijing\n");
 					break;
 				}
 			} else {
